@@ -1,0 +1,53 @@
+html,
+body,
+#app {
+    height: 100%;
+}
+
+html.dark {
+    background: #121212;
+}
+
+ul {
+    list-style: none;
+}
+
+.bg-full {
+    background-size: 100% 100%;
+}
+
+.title-color1 {
+    background-image: linear-gradient(#e7fb82, #17cc52);
+    text-shadow: rgb(0, 0, 0, 0.1) 4px 4px 4px;
+}
+
+.title-color2 {
+    background-image: linear-gradient(#1ac553, #17cc52);
+    text-shadow: rgb(0, 0, 0, 0.1) 4px 4px 4px;
+}
+
+.small-title-color {
+    color: rgb(67, 189, 66);
+}
+
+.small-title-border {
+    border-top: #17cc52 solid 1px;
+    border-bottom: #17cc52 solid 1px;
+}
+
+
+.index{
+    background-image: url('@/static/home/bg.png');
+}
+
+.contentBg{
+    background-image: url('@/static/home/contentBg.png');
+}
+
+.content{
+    background-image: url('@/static/home/content.png');
+}
+
+.blankContent{
+    background-image: url('@/static/home/blankContent.png');
+}
